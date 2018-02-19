@@ -25,6 +25,8 @@ while ($row = $bridge->fetch()) {
 $bridge->finish();
 ```
 
+See [wordpress-thumbnails](https://github.com/LeoColomb/wordpress-thumbnails) for a real example.
+
 ## License
 
 ISC © Léo Colombaro
