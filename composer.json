@@ -1,0 +1,27 @@
+{
+    "name": "leocolomb/cli-db-iterator",
+    "description": "Interface for iterating through a SQL selection",
+    "homepage": "https://github.com/LeoColomb/cli-db-iterator",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Léo Colombaro",
+            "homepage": "https://colombaro.fr/"
+        }
+    ],
+    "keywords": [
+        "database",
+        "cli"
+    ],
+    "support": {
+        "issues": "https://github.com/LeoColomb/cli-db-iterator/issues"
+    },
+    "require": {
+        "symfony/console": "3.2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "CLIDatabaseIterator\\": ""
+        }
+    }
+}
